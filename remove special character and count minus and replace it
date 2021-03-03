@@ -1,0 +1,31 @@
+Remove special character  (,) and count minus and remove it if the minus symbol count is even 
+if the minus symbol count is odd add one minus symbol at the begining
+
+
+import java.util.Scanner;
+
+public class Rem {
+	public static void main(String[] args)  {
+	 Scanner scan = new Scanner (System.in);
+	 String s= scan.nextLine();
+	 String a="";
+	 int count=0;
+	 s=s.replace(",", "");
+	 a=s.replaceAll("-","");
+	 int b=s.length()-a.length();	 
+	 
+	 if(b%2==0) {
+		// s=s.replaceAll("-", "");
+	 System.out.println(a);
+	}
+	else {
+		s=s.replaceAll("-","");
+	 s="-"+s;
+	 
+	 System.out.println(s);
+	} 
+ }
+}
+        
+ 
+

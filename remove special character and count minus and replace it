@@ -1,6 +1,9 @@
 Remove special character  (,) and count minus and remove it if the minus symbol count is even 
 if the minus symbol count is odd add one minus symbol at the begining
-
+IN: 1,2,-3,4
+OUT: -1234
+IN:-1,-2,-3,4
+OUT:1234
 
 import java.util.Scanner;
 

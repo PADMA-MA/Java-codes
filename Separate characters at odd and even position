@@ -3,7 +3,7 @@
 public class word {
 
 	public static void main(String[] args) {
-		String s="Hacker  Rank";
+		String s="Github";
 		String a="";
 		String b="";
 		for(int i=0;i<s.length();i++){
